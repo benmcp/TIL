@@ -1,6 +1,6 @@
 # TIL
 
-> A Repo of things I've learn along my searchings
+> A Repo of things I've learnt along my searchings
 
 ### Categories
 
