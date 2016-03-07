@@ -4,7 +4,12 @@
 
 ### Categories
 
+[Chrome](#chrome)
 [Sublime](#sublime)
+
+### Chrome
+
+- [How to quickly view Chrome's local settings](chrome/chrome-local-state.md)
 
 ### Sublime
 
