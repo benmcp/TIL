@@ -10,7 +10,7 @@
 
 ### Chrome
 
-- [How to quickly view Chrome's local settings](chrome/chrome-local-state.md)
+- [How to quickly view Chrome's local settings](Chrome/chrome-local-state.md)
 
 ### Sublime
 
