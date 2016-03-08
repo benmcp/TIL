@@ -11,6 +11,7 @@
 ### Chrome
 
 - [How to quickly view Chrome's local settings](Chrome/chrome-local-state.md)
+- [Useful Chrome shortcuts](Chrome/chrome-shortcuts.md)
 
 ### Sublime
 
