@@ -18,6 +18,10 @@
 
 - [Design Patterns - Revealing Modular Pattern](javascript/design-pattern-revealing-modular-pattern.md)
 
+### Javascript - Underscore.js
+
+- [Extending Objects](underscore/extend-function.md)
+
 ### Sublime
 
 - [How to navigate quickly within a project](sublime/navigate-quickly.md)
