@@ -18,6 +18,10 @@
 
 - [Design Patterns - Revealing Modular Pattern](javascript/design-pattern-revealing-modular-pattern.md)
 
+## Javascript - ES2015
+
+- [Introduction - what is ES2015](es2015/introduction.md)
+
 ### Javascript - Underscore.js
 
 - [Extending Objects](underscore/extend-function.md)
