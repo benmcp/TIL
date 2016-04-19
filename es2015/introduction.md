@@ -1,8 +1,8 @@
 # ES2015 - Introduction 
 
-## What is ES2015
+TLDR- ES = ECMAScript, ECMAScript version 6 was released in 2015.
 
-TLDR: ES = ECMAScript, ECMAScript version 6 was released in 2015.
+## What is ES2015
 
 The best way to understand what ES2015 is, is to work backwards and start from the begining.
 
