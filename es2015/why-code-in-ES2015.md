@@ -26,7 +26,7 @@ Ease of use and compilers!!!
 
 With the new features and standards that come out of ECMAScript, developers can write cleaner and more powerful code with fewer bugs.
 
-Compilers such as (Babel)[https://babeljs.io/] allow developers to build applications in the latest versions of ECMAScript and will output their code in a format that will adhere to a more legacy version of the ECMAScript standards which is read by the browser.
+Compilers such as [Babel](https://babeljs.io/) allow developers to build applications in the latest versions of ECMAScript and will output their code in a format that will adhere to a more legacy version of the ECMAScript standards which is read by the browser.
 
 ## But why bleeding edge?
 
