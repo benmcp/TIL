@@ -99,7 +99,7 @@ Import {fnOne, fnTwo} from "./fileOne"
 
 console.log(fnOne());
 console.log(fnTwo());
-console.log(fnThree()); Uncaught ReferenceError: fnThree is not defined
+console.log(fnThree()); // Uncaught ReferenceError: fnThree is not defined
 
 ```
 
