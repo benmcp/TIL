@@ -1,1 +1,1 @@
-# ES2015
+# A simple guide to ES2015
