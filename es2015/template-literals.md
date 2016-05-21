@@ -30,6 +30,8 @@ var pants = 1;
 
 console.log(`The hipster is wearing a ${colour} bow tie and has ${shirt + pants} pockets.`);
 
+// output => The hipster is wearing a red bow tie and has 6 pockets.
+
 ```
 ## Tagged Templates
 
@@ -61,4 +63,3 @@ unscramble`The ${second}wearing a ${first}hipster`;
 // output => ["The ","wearing a ","hipster"]
 
 ```
-
