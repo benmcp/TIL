@@ -2,7 +2,7 @@
 
 ## What are classes?
 
-A class is essentially a template/blueprint that creates an object.
+A class is essentially a template/blueprint that creates an object. JS classes is nothing new for the world of javascript, it is rather a cleaner syntax for managing objects.
 
 In most languages, classes contain methods (member functions) and variables (initial member variables) with 'member' meaning contained.
 
