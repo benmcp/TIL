@@ -24,6 +24,7 @@
 - [Why write in ES2015 if browsers don't support it?](es2015/why-code-in-ES2015.md)
 - [Classes](es2015/classes.md)
 - [Import/Export](es2015/import-export.md)
+- [Arrow Fn/Lexical This](es2015/arrow-fn.md)
 
 ### Javascript - Underscore.js
 
