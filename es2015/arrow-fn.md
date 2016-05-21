@@ -27,7 +27,7 @@ So what? That is where lexical this comes in.
 
 ## Lexical this
 
-Lexical `this` refers to the `this` relating to the containing function. WHy is this important? The most comnmon example to show this is the following:
+Lexical `this` refers to the `this` relating to the containing function. Why is this important? The most comnmon example to show this is the following:
 
 ```javascript
 
