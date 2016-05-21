@@ -18,7 +18,7 @@
 
 - [Design Patterns - Revealing Modular Pattern](javascript/design-pattern-revealing-modular-pattern.md)
 
-## Javascript - ES2015
+## [Javascript - ES2015](es2015/)
 
 - [Introduction - What is ES2015](es2015/introduction.md)
 - [Why write in ES2015 if browsers don't support it?](es2015/why-code-in-ES2015.md)
