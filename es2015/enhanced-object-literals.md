@@ -76,6 +76,20 @@ obj.moreStuff();
 
 ```
 
+Bonus - and if we incorporate Arrow Functions:
+
+```javascript
+
+var obj = {
+	doStuff: () => console.log('do stuff'),
+	moreStuff: () => console.log('more stuff')
+};
+
+obj.doStuff();
+obj.moreStuff();
+
+```
+
 ## Dynamic Propeties
 
 And finally, dynamic property names:
