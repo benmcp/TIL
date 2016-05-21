@@ -25,6 +25,7 @@
 - [Classes](es2015/classes.md)
 - [Import/Export](es2015/import-export.md)
 - [Arrow Fn/Lexical This](es2015/arrow-fn.md)
+- [Enhanced object literals](es2015/enhanced-object-literals.md)
 
 ### Javascript - Underscore.js
 
