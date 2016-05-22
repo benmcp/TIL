@@ -30,7 +30,8 @@
 - [Arrow Fn/Lexical This](es2015/arrow-fn.md)
 - [Enhanced Object Literals](es2015/enhanced-object-literals.md)
 - [Template Literals](es2015/template-literals.md)
-- [Variable Declarations - Let & Const](es2015/variable-declarations.md)
+- [Variable Declarations - Let and Const](es2015/variable-declarations.md)
+- [Default, Rest and Spread](es2015/default-rest-spread.md)
 
 ### Javascript - Underscore.js
 

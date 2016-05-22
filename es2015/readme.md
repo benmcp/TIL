@@ -8,3 +8,4 @@
 - [Enhanced Object Literals](enhanced-object-literals.md)
 - [Template Literals](template-literals.md)
 - [Variable Declarations - Let & Const](variable-declarations.md)
+- [Default, Rest and Spread](default-rest-spread.md)
