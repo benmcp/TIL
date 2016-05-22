@@ -12,7 +12,7 @@ Which outputs:
 => {name: 'moe', age: 50}
 ```
 
-However, this update the original object! Concider the following example:
+However, this updates the original object! Consider the following example:
 
 ```javascript
 var dude = {
