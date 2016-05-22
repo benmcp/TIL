@@ -111,5 +111,6 @@ var a = ['one','two'];
 var b = [...a, 'three', 'four'];
 
 console.log(b);
+// output=> ["one","two","three","four"]
 
 ```
