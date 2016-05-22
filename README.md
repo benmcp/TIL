@@ -3,11 +3,14 @@
 > A Repo of things I've learnt along my searchings
 
 ### Categories
-
+* [AWS](#aws)
 * [Chrome](#chrome)
 * [Sublime](#sublime)
 * [Javascript](#javascript)
 
+### AWS
+
+- [Install node on Amazon Linux AMI](AWS/AMI/install-node.md)
 
 ### Chrome
 

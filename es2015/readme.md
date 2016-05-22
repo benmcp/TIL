@@ -7,3 +7,4 @@
 - [Arrow Fn/Lexical This](arrow-fn.md)
 - [Enhanced Object Literals](enhanced-object-literals.md)
 - [Template Literals](template-literals.md)
+- [Variable Declarations - Let & Const](variable-declarations.md)
