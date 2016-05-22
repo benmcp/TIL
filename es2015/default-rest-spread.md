@@ -63,7 +63,7 @@ console.log(test(5));
 
 This is a small addition wherein a collection of remaining parameters can be turned into an array, rather than explicityly gettintg the arguments via `Array.prototype.slice.call(arguments)` then iterating through.
 
-``javascript
+```javascript
 
 function satchelBag(first, ...items) {
 	console.log(first);
