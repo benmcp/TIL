@@ -5,6 +5,7 @@
 ### Categories
 * [AWS](#aws)
 * [Chrome](#chrome)
+* [MySQL](#mysql)
 * [Sublime](#sublime)
 * [Javascript](#javascript)
 
@@ -16,6 +17,11 @@
 
 - [How to quickly view Chrome's local settings](Chrome/chrome-local-state.md)
 - [Useful Chrome shortcuts](Chrome/chrome-shortcuts.md)
+
+### MySQL
+
+- [How to reboot mysql server on EC2 AMI Instance](mysql/reboot-ami-mysql.md)
+- [Import large .sql files for windows](mysql/upload-limit.md)
 
 ### Javascript
 
