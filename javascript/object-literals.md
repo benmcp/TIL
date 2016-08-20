@@ -1,5 +1,3 @@
-object-literals.md
-
 ```
 var obj = {
 
