@@ -27,6 +27,7 @@
 
 - [Design Patterns - Revealing Modular Pattern](javascript/design-pattern-revealing-modular-pattern.md)
 - [Difference between an object and a function](javascript/difference-between-object-and-function.md)
+
 ## [Javascript - ES2015](es2015/)
 
 - [Introduction - What is ES2015](es2015/introduction.md)
