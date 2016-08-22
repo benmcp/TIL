@@ -40,6 +40,7 @@
 - [Template Literals](es2015/template-literals.md)
 - [Variable Declarations - Let and Const](es2015/variable-declarations.md)
 - [Default, Rest and Spread](es2015/default-rest-spread.md)
+- [Promises](es2015/promises.md)
 
 ### Javascript - Underscore.js
 
