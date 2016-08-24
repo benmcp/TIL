@@ -52,7 +52,7 @@
 
 ### Terminal
 
--[Open folder from terminal](terminal/open-folder.md)
+- [Open folder from terminal](terminal/open-folder.md)
 
 ## About
 
