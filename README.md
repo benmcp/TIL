@@ -12,6 +12,7 @@
 ### AWS
 
 - [Install node on Amazon Linux AMI](AWS/AMI/install-node.md)
+- [Setup Linux AMI node server for AWS](AWS/AMI/setup-linux-node-server.md)
 
 ### Chrome
 
