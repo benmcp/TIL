@@ -6,7 +6,7 @@ TLDR: Compilers.
 
 Lets start with a bit of history.
 
-In the late 90's, with the fall of Netscape Navigator, Microsoft's Internet Explorer dominated the browser market with a ~95% market share.
+In the late 90's, with the fall of Netscape Navigator, Microsoft's Internet Explorer dominated the browser market with a ~95% market share (citation needed).
 
 At this point in time, Explorer could play by it's own rules. This being that it could create it's own standards which developers would have to adhere to due to their large market share.
 
