@@ -8,7 +8,7 @@ In most languages, classes contain methods (member functions) and variables (ini
 
 When a new class is called, an instance of that class is created.
 
-Using a bicylce as an example, a class is a template for a bike. A bike works a particular way/has a particular method with varibales such as the number of gears affecting how it functions. The class isn't the bike, the class is only a blueprint for the bike. The actual bike is an instance of the bicycle class.
+Using a bicylce as an example, a class is a template for a bike. A bike works a particular way/has a particular method with variables such as the number of gears affecting how it functions. The class isn't the bike, the class is only a blueprint for the bike. The actual bike is an instance of the bicycle class.
 
  Another powerful feature of classes is that classes can inherit features from another class. The class HipsterBicycle extends upon the Bicycle class which it's own additional variables and methods.
 
