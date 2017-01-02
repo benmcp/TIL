@@ -24,6 +24,9 @@
 - [How to reboot mysql server on EC2 AMI Instance](mysql/reboot-ami-mysql.md)
 - [Import large .sql files for windows](mysql/upload-limit.md)
 
+### Ruby on Rails
+- [Basic Migration CLI cheatsheet](RoR/migration-cli-cheatsheet.md)
+
 ### Javascript
 
 - [Design Patterns - Revealing Modular Pattern](javascript/design-pattern-revealing-modular-pattern.md)
