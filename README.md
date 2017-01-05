@@ -50,6 +50,11 @@
 
 - [Extending Objects](underscore/extend-function.md)
 
+### JS - React - Redux
+
+- [Compose](React/Redux/compose.md)
+
+
 ### Sublime
 
 - [How to navigate quickly within a project](sublime/navigate-quickly.md)
