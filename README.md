@@ -28,6 +28,10 @@
 
 - [Installation](emacs/installation.md)
 
+### Kubernetes
+
+- [Enable Intel VT-x virtualization feature in Mac computer](kubernetes/enable-visualisation.md)
+
 ### MySQL
 
 - [How to reboot mysql server on EC2 AMI Instance](mysql/reboot-ami-mysql.md)
