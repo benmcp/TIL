@@ -24,6 +24,10 @@
 - [Install Docker](Docker/install-docker.md)
 - [Docker CLI Cheatsheet](Docker/cli-cheatsheet.md)
 
+### Emacs
+
+- [Installation](emacs/installation.md)
+
 ### MySQL
 
 - [How to reboot mysql server on EC2 AMI Instance](mysql/reboot-ami-mysql.md)
