@@ -30,7 +30,7 @@
 
 ### Kubernetes
 
-- [Enable Intel VT-x virtualization feature in Mac computer](kubernetes/enable-visualisation.md)
+- [Enable Intel VT-x virtualization feature in Mac computer](kubernetes/enable-virtualisation.md)
 
 ### MySQL
 
