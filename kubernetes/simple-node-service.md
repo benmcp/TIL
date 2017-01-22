@@ -51,3 +51,24 @@ deployment "hello-node" created
 ```
 
 Note: `--image-pull-policy=IfNotPresent` updates your image pull policy to source images locally, thus giving access to your locally created `hello-node:v1`. By default this flag is set to `Never`.
+
+Expose this:
+```
+$ kubectl expose deployment hello-node --type=NodePort
+service "hello-node" exposed
+```
+
+To see this working:
+```
+$ kubectl get services
+NAME         CLUSTER-IP   EXTERNAL-IP   PORT(S)          AGE
+hello-node   10.0.0.221   <nodes>       8080:30331/TCP   1h
+```
+
+Or open the dashboard to see it live there. Url can be obtained via:
+```
+$ minikube dashboard --url
+http://192.168.99.100:30000
+```
+
+
