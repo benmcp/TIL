@@ -31,6 +31,7 @@
 ### Kubernetes
 
 - [Enable Intel VT-x virtualization feature in Mac computer](kubernetes/enable-virtualisation.md)
+- [Install Minikube and basic cheatsheets](kubernetes/install-minikube.md)
 
 ### MySQL
 
