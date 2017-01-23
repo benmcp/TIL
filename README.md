@@ -41,6 +41,7 @@
 
 ### Ruby on Rails
 - [Basic Migration CLI cheatsheet](RoR/migration-cli-cheatsheet.md)
+- [General RoR cheatsheet](rails-cheatsheet.md)
 
 ### Javascript
 
