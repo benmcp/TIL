@@ -39,3 +39,16 @@ To add a model with an association for another model:
 rails generate model comment name:string description:string post:references
 ```
 ^ that will add the model `comment` which `belongs_to` a `post`
+
+## Create/view Entity-Relationship Diagram
+
+[Download this gem](https://github.com/voormedia/rails-erd)
+
+Add gem `rails-erd` to your application's Gemfile
+
+Run:
+```
+bundle exec erd
+```
+
+This will generate a file `erd.pdf` in the repo's base directory showing your relationships.
