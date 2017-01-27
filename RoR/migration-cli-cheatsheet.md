@@ -22,6 +22,11 @@ Roll back one:
 rake db:rollback STEP=1
 ```
 
+Roll back to the start
+```
+rake db:purge
+```
+
 Roll back to a specific `STEP`:
 ```
 rake db:migrate:down VERSION=20160101202312
