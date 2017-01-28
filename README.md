@@ -75,6 +75,10 @@
 
 - [Install Tree](Linux/tree.md)
 
+### Random Problems
+
+- [Invert Binary Tree](problems/invert-binary-tree.md)
+
 ### Sublime
 
 - [How to navigate quickly within a project](sublime/navigate-quickly.md)
