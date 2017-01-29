@@ -84,6 +84,10 @@
 
 - [How to navigate quickly within a project](sublime/navigate-quickly.md)
 
+### OpenAPI - Swagger
+
+- [Docs/Cheatsheet](Swagger/cheatsheet.md)
+
 ### Terminal
 
 - [Open folder from terminal](terminal/open-folder.md)
