@@ -30,9 +30,16 @@ To add a model with an association for another model:
 ```
 rails generate model Comment name:string description:string post:references
 # or 
-rails generate model Component post_id:integer
+rails generate model Comment post_id:integer
 ```
 ^ that will add the model `comment` which `belongs_to` a `post`
+
+If the tables are already created:
+```
+rails g migration AddProjectToGroup project:belongs_to
+```
+^ This will make projects belong to groups
+```
 
 ## Create/view Entity-Relationship Diagram
 
