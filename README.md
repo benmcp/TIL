@@ -5,6 +5,11 @@
 ### Categories
 * [AWS](#aws)
 * [Chrome](#chrome)
+* [Docker](#docker)
+* [Emacs](#emacs)
+* [Git](#git)
+* [Javascript](#javascript)
+* [Linux](#Linux)
 * [MySQL](#mysql)
 * [Sublime](#sublime)
 * [Javascript](#javascript)
@@ -28,20 +33,9 @@
 
 - [Installation](emacs/installation.md)
 
-### Kubernetes
+## Git
 
-- [Enable Intel VT-x virtualization feature in Mac computer](kubernetes/enable-virtualisation.md)
-- [Install Minikube and basic cheatsheets](kubernetes/install-minikube.md)
-- [Simple node serivce](kubernetes/simple-node-service.md)
-
-### MySQL
-
-- [How to reboot mysql server on EC2 AMI Instance](mysql/reboot-ami-mysql.md)
-- [Import large .sql files for windows](mysql/upload-limit.md)
-
-### Ruby on Rails
-- [Basic Migration CLI cheatsheet](RoR/migration-cli-cheatsheet.md)
-- [General RoR cheatsheet](rails-cheatsheet.md)
+- [Git cheatsheet](git/git-cheatsheet.md)
 
 ### Javascript
 
@@ -66,30 +60,41 @@
 
 - [Extending Objects](underscore/extend-function.md)
 
-### JS - React - Redux
+### Javascript - React - Redux
 
 - [Compose](React/Redux/compose.md)
 
-## Git
+### Kubernetes
 
-- [Git cheatsheet](git/git-cheatsheet.md)
+- [Enable Intel VT-x virtualization feature in Mac computer](kubernetes/enable-virtualisation.md)
+- [Install Minikube and basic cheatsheets](kubernetes/install-minikube.md)
+- [Simple node serivce](kubernetes/simple-node-service.md)
 
 ### Linux
 
 - [Install Tree](Linux/tree.md)
 - [Basic Commands]()Linux/commands-cheatsheet.md)
 
-### Random Problems
+### MySQL
 
-- [Invert Binary Tree](problems/invert-binary-tree.md)
-
-### Sublime
-
-- [How to navigate quickly within a project](sublime/navigate-quickly.md)
+- [How to reboot mysql server on EC2 AMI Instance](mysql/reboot-ami-mysql.md)
+- [Import large .sql files for windows](mysql/upload-limit.md)
 
 ### OpenAPI - Swagger
 
 - [Docs/Cheatsheet](Swagger/cheatsheet.md)
+
+### Problems
+
+- [Invert Binary Tree](problems/invert-binary-tree.md)
+
+### Ruby on Rails
+- [Basic Migration CLI cheatsheet](RoR/migration-cli-cheatsheet.md)
+- [General RoR cheatsheet](rails-cheatsheet.md)
+
+### Sublime
+
+- [How to navigate quickly within a project](sublime/navigate-quickly.md)
 
 ### Terminal
 
