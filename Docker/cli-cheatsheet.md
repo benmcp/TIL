@@ -26,13 +26,14 @@ docker rmi IMAGE_NAME
 docker rmi -f IMAGE_NAME
 ```
 
-
 ## Quick start/running a container
 ```
 docker pull centos
 docker run -it centos:latest /bin/bash
 ```
 Where `i` is for `interactive` mode and `t` is for `terminal`. This will run the `centos` container and log you in.
+
+If you use `-d` it will mean the container will run as a daemon, i.e. in the background/you wont get logged into the container.
 
 ## See currently running containers
 ```
