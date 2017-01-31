@@ -33,7 +33,7 @@
 
 - [Installation](emacs/installation.md)
 
-## Git
+### Git
 
 - [Git cheatsheet](git/git-cheatsheet.md)
 
