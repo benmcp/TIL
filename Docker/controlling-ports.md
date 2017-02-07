@@ -33,3 +33,17 @@ a8dfe12777f2        nginx:latest        "nginx -g 'daemon ..."   5 minutes ago  
 ```
 
 Such that you can go do `http://0.0.0.0:32768` and the page will be exposed.
+
+## How to specify which ports?
+
+```
+docker run -itd -p 8080:80 nginx:latest
+```
+
+Now, port `http:/0.0.0.0:8080` will map to the containers port 80.
+
+```
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                           NAMES
+4364aeb5f2fa        nginx:latest        "nginx -g 'daemon ..."   2 seconds ago       Up 2 seconds        443/tcp, 0.0.0.0:8080->80/tcp   awesome_heyrovsky
+```
+
