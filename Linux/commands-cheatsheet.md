@@ -11,6 +11,7 @@ Search Backwards
 :?search_term
 
 ## Run bash commands
+````
 
 If you need to run a bash command but pass a variable:
 
