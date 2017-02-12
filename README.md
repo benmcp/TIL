@@ -44,6 +44,7 @@
 - [Design Patterns - Object Literal](javascript/object-literals.md)
 - [Difference between an object and a function](javascript/difference-between-object-and-function.md)
 - [Async Hell Cheatsheet Sample](javascript/async.md)
+- [Node Version Manager](javascript/node-version-manager.md)
 
 ## [Javascript - ES2015](es2015/)
 
