@@ -78,6 +78,7 @@
 - [Install Tree](Linux/tree.md)
 - [Basic Commands]()Linux/commands-cheatsheet.md)
 - [Important Directories](Linux/important-directories.md)
+- [Simple Bash Stuff](Linux/bash)
 
 ### MySQL
 
