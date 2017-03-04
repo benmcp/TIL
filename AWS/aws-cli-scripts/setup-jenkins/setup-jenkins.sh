@@ -58,11 +58,13 @@ function createEC2() {
     --key-name ${keyPair}`
 
   instanceId=`echo "$launchInstance" | jq .Instances[0].InstanceId --raw-output`
+  ipAddress=`echo "$launchInstance" | jq .Instances[0].PublicIpAddress  --raw-output`
   addTag=`aws ec2 create-tags\
     --resources ${imageId} ${instanceId}\
     --tags Key=Name,Value=${roleName}`
 
-  echo 'Instance created: ${roleName'
+  echo 'Instance created: ' $roleName
+  echo 'IP Address: ' $ipAddress
 }
 
 ################
