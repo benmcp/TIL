@@ -67,14 +67,35 @@ function createEC2() {
   echo 'IP Address: ' $ipAddress
 }
 
+
+terminateInstance() {
+  instances=`aws ec2 describe-instances`
+  instance=`echo "$instances" | jq\
+    --arg roleName "${roleName}"\
+    '.Reservations[] |\
+    select((.Instances[0].Tags[0].Value==$roleName) and (.Instances[0].State.Name=="running"))'  --raw-output`
+
+  instanceIDs=`echo "$instance" | jq .Instances[0].InstanceId   --raw-output`
+
+  echo "Terminating the following instance(s)"
+  echo $instanceIDs
+
+  terminate=`aws ec2 terminate-instances --instance-ids ${instanceIDs}`
+}
+
 ################
 #   Main
 ################
 
-# # Create Role
-createRole
+if [ $1 == '-terminate' ]; then
+  terminateInstance
+else
+  # Create Role
+  createRole
 
-# # Create Jenkins EC2
-createEC2
+  # Create Jenkins EC2
+  createEC2
+fi
+
 
 
