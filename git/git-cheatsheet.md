@@ -22,3 +22,9 @@ See commit history of specific file
 ```
 git log --follow <FILE_NAME>
 ```
+
+See the entire git history/tree
+```
+git log --graph --oneline --all
+```
+
