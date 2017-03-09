@@ -33,3 +33,8 @@ See file changes before commit
 git diff file.txt
 ```
 
+Undo working copy of a single file
+```
+git checkout -- file
+```
+
