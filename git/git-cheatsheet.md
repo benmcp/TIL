@@ -28,3 +28,8 @@ See the entire git history/tree
 git log --graph --oneline --all
 ```
 
+See file changes before commit
+```
+git diff file.txt
+```
+
