@@ -58,12 +58,20 @@ function createEC2() {
     --key-name ${keyPair}`
 
   instanceId=`echo "$launchInstance" | jq .Instances[0].InstanceId --raw-output`
-  ipAddress=`echo "$launchInstance" | jq .Instances[0].PublicIpAddress  --raw-output`
+  # ipAddress=`echo "$launchInstance" | jq .Instances[0].PublicIpAddress  --raw-output`
   addTag=`aws ec2 create-tags\
     --resources ${imageId} ${instanceId}\
     --tags Key=Name,Value=${roleName}`
 
-  echo 'Instance created: ' $roleName
+  check=`aws ec2 describe-instances \
+    --instance-ids ${instanceId}`
+  # echo $check
+
+  ipAddress=`aws ec2 describe-instances \
+    --instance-ids ${instanceId} \
+    | jq '.Reservations[0].Instances[0].PublicIpAddress' --raw-output`
+
+  echo 'Instance created:' $roleName
   echo 'IP Address: ' $ipAddress
 }
 
@@ -87,7 +95,7 @@ terminateInstance() {
 #   Main
 ################
 
-if [ $1 == '-terminate' ]; then
+if [[ $1 == '-terminate' ]]; then
   terminateInstance
 else
   # Create Role
@@ -96,6 +104,3 @@ else
   # Create Jenkins EC2
   createEC2
 fi
-
-
-
