@@ -67,12 +67,18 @@ function createEC2() {
     --instance-ids ${instanceId}`
   # echo $check
 
-  ipAddress=`aws ec2 describe-instances \
-    --instance-ids ${instanceId} \
+  details=`aws ec2 describe-instances \
+    --instance-ids ${instanceId}`
+
+  ipAddress=`echo "$details" \
     | jq '.Reservations[0].Instances[0].PublicIpAddress' --raw-output`
+
+  publicDnsName=`echo "$details" \
+    | jq '.Reservations[0].Instances[0].PublicDnsName' --raw-output`
 
   echo 'Instance created:' $roleName
   echo 'IP Address: ' $ipAddress
+  echo 'IP Address Name: ' $publicDnsName
 }
 
 
