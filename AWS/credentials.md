@@ -1,4 +1,4 @@
-# Credentials
+# Configure Credentials for AWS CLI
 
 Got to `aws directory`
 ```
