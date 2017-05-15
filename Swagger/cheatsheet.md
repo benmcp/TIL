@@ -4,7 +4,12 @@ Documentation:
 
 [Swagger](http://swagger.io/specification/)
 
-[Smaple Code](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/uber.yaml)
+Convert swagger to severless.yml
+```
+aws apigateway get-export --export-type swagger --rest-api-id xxx --stage-name dev myswagger.json
+```
+
+[Sample Code](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/uber.yaml)
 
 Also below:
 
