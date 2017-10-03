@@ -64,3 +64,20 @@ End
 ```
 
 The service `httpd` is enabled at boot time.
+
+
+# Service Actions
+
+```
+:disable
+:enable
+:nothing
+:reload
+:start
+:restart
+:stop
+```
+
+# Libraries
+
+Used to create reusable code that can be placed within a recipe in a clean way
