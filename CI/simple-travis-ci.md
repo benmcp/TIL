@@ -48,4 +48,4 @@ You will then be prompted with a simple addtion to your `.travis.yml` file which
 
 Then, then you complete a git push, you will receive a notification from `Travis CI` in your allocated `Slack Channel` that all tests have been passed or failed:
 
-[!alt](../.images/travis-ci-pass.png)
+![alt text](../.images/travis-ci-pass.png)
