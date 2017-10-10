@@ -6,7 +6,7 @@ Login into TravisCI and register [your account](https://travis-ci.org/).
 
 Add a public repo and activate it:
 
-[!alt](../.images/travis-ci-proj.png)
+![alt text](../.images/travis-ci-proj.png)
 
 Turn on `Build only if .travis.yml is present`
 
@@ -19,11 +19,11 @@ node_js:
 
 On github in `Integration and Settings` click `Test service`:
 
-[!alt](../.images/travis-ci-test-button.png)
+![alt text](../.images/travis-ci-test-button.png)
 
 If you then go to `Tavis-ci` to view your test results, you may notice an error such as this:
 
-[!alt](../.images/travis-ci-failed.png)
+![alt text](../.images/travis-ci-failed.png)
 
 Also note, though we only had `mocha` installed locally, `Tavis CI` will look for a `.bin/` executable of `mocha`, namely:
 
