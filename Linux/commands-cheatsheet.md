@@ -28,3 +28,10 @@ ngrok_function() {
   /Applications/ngrok $1
 }
 ```
+
+## Run commands after window has closed
+```
+nohup function > custom-out.log &
+## or 
+screen function
+```
