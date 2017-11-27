@@ -52,8 +52,6 @@ ssh target-server
 scp target-server:/var/some/file.txt .
 ```
 
-```
-
 ### How to leave:
 ```
 exit
