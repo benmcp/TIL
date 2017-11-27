@@ -35,3 +35,7 @@ nohup function > custom-out.log &
 ## or 
 screen function
 ```
+## Watch changes in file (i.e. error logs)
+```
+tail -f -n 10 error.log
+```
