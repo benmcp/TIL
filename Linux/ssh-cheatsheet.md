@@ -57,3 +57,15 @@ scp target-server:/var/some/file.txt .
 exit
 ```
 
+### How to add SSH agent
+To Check for added agents:
+```
+ssh-add -l
+```
+
+To add an agent
+```
+ssh-add -K PRIVATE_KEY
+```
+
+
