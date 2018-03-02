@@ -16,3 +16,8 @@ Cut output:
 ```
 aws ec2 describe-regions --output text | cut -f 2
 ```
+
+Credentials location
+```
+cat ~/.aws/credentials
+```
