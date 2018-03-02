@@ -21,3 +21,8 @@ Credentials location
 ```
 cat ~/.aws/credentials
 ```
+
+Execute as another profile:
+```
+aws ec2 describe-instances --profile user2
+```
