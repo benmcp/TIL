@@ -37,3 +37,5 @@ Undo working copy of a single file
 ```
 git checkout -- file
 ```
+
+ 
