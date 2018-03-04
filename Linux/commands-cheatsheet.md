@@ -39,3 +39,8 @@ screen function
 ```
 tail -f -n 10 error.log
 ```
+
+## Check free disk space
+```
+df -h
+```
