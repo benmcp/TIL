@@ -44,4 +44,3 @@ tail -f -n 10 error.log
 ```
 df -h
 ```
-
