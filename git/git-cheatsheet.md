@@ -13,7 +13,7 @@ git rev-list --count <revision>
 git rev-list --count master
 ```
 
-## Create a commit with a different timestamp
+Create a commit with a different timestamp
 ```
 GIT_AUTHOR_DATE=2011-01-15T12:00:00 GIT_COMMITTER_DATE=2011-01-15T12:00:00 git commit -m "Random commit"
 ```
@@ -36,4 +36,9 @@ git diff file.txt
 Undo working copy of a single file
 ```
 git checkout -- file
+```
+
+Update permissions to .git directory (if you ran functions as different user groups)
+```
+sudo chown -R "${USER:-$(id -un)}" .
 ```
