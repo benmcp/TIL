@@ -44,6 +44,11 @@ tail -f -n 10 error.log
 df -h
 ```
 
+## See size of files on your directories:
+```
+du -sh ./*
+```
+
 ## Get environment variables
 ```
 printenv
