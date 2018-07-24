@@ -53,3 +53,7 @@ du -sh ./*
 ```
 printenv
 ```
+## Move hidden files
+```
+mv rand-folder/.[!.]* ./somewhere-else/
+```
