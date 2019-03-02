@@ -5,13 +5,12 @@
 Search Forwards
 ```
 :/search_term
-
+```
 Search Backwards
-
+```
 :?search_term
-
+```
 ## Run bash commands
-````
 
 If you need to run a bash command but pass a variable:
 
@@ -43,4 +42,18 @@ tail -f -n 10 error.log
 ## Check free disk space
 ```
 df -h
+```
+
+## See size of files on your directories:
+```
+du -sh ./*
+```
+
+## Get environment variables
+```
+printenv
+```
+## Move hidden files
+```
+mv rand-folder/.[!.]* ./somewhere-else/
 ```

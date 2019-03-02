@@ -1,0 +1,15 @@
+# Elastic Search Commands
+
+Search for elasticsearch versions:
+```
+brew search elasticsearch
+```
+
+Start elasticsearch:
+```
+brew services start elasticsearch
+```
+Stop elasticsearch
+```
+brew services stop elasticsearch
+```

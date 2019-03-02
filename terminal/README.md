@@ -10,3 +10,8 @@ du -sh file_path
 ```
 php -i | grep php.ini
 ```
+
+### List files only
+```
+ls -p | grep -v /
+```
