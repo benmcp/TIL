@@ -57,3 +57,13 @@ printenv
 ```
 mv rand-folder/.[!.]* ./somewhere-else/
 ```
+
+## Clipboard
+copy directory to Clipboard:
+```
+pwd|pbcopy
+```
+cd into directory in Clipboard
+```
+cd $(pbpaste)
+```
