@@ -14,3 +14,9 @@ Print variable in a string
 TEST="HI THERE"
 ECHO "RANDOM GREETING $TEST"
 ```
+
+Make dir if it doesn't exist
+```
+dir=RANDO
+[[ -d $dir ]] || mkdir $dir
+```
