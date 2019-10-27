@@ -9,3 +9,8 @@ PWD="$(pwd)"
 SOURCE="${BASH_SOURCE[0]}"
 ```
 
+Print variable in a string
+```
+TEST="HI THERE"
+ECHO "RANDOM GREETING $TEST"
+```
