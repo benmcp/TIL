@@ -20,3 +20,22 @@ Make dir if it doesn't exist
 dir=RANDO
 [[ -d $dir ]] || mkdir $dir
 ```
+
+Save to JSON file:
+```
+JSON_TEXT=$(cat <<EOF
+    [
+		{
+			"ParameterKey": "KeyPairName",
+			"ParameterValue": "MyKey"
+		}, 
+		{
+			"ParameterKey": "InstanceType",
+			"ParameterValue": "m1.micro"
+		}
+	]
+EOF
+)
+
+echo $JSON_TEXT > test.json
+```
