@@ -1,4 +1,4 @@
-# history grep alias
+### history grep alias
 ```
 alias gh='history | grep '
 ```
