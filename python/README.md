@@ -15,6 +15,12 @@ items_not_in_a = [item for item in list_b if item not in list_a]
 
 Attach a directory to current location
 ```
-dir_with_modules_i_want = '../somewhere/else'
+dir_with_modules_i_want = str('../somewhere/else')
 sys.path.insert(0, dir_with_modules_i_want)
+```
+
+Show list of available paths:
+```
+import sys
+print(sys.path)
 ```
