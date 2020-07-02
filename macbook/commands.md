@@ -12,3 +12,8 @@ cmd + ctrl + shift + 4
 ```
 cmd + shift + 4
 ```
+
+## Kill all running processes that have similar name
+```
+kill $(ps aux | grep 'Visual Studio Code.app' | grep -v grep | awk '{print $2}')
+```
