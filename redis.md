@@ -41,3 +41,31 @@ Uninstall Redis and its files.
 brew uninstall redis
 rm ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 ```
+
+## Redis commands
+
+"log into" cache
+```
+redis-cli
+```
+
+Get all keys
+```
+KEYS *
+```
+
+Get like keys
+```
+KEYS *name*
+---
+1) "firstname"
+2) "lastname"
+```
+
+Get specific keys
+```
+KEYS firstname
+---
+1) "firstname"
+```
+
