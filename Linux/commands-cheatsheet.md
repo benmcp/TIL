@@ -67,3 +67,12 @@ cd into directory in Clipboard
 ```
 cd $(pbpaste)
 ```
+
+## Delete node_modules recursively from all folders which contain node_modules
+
+```
+# list all directories to remove
+find . -name 'node_modules' -type d -prune
+# delete all listed directories
+find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
+```
